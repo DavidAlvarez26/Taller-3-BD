@@ -1,3 +1,4 @@
+import os
 from datetime import datetime
 
 from fastapi import FastAPI
@@ -33,17 +34,18 @@ def post_comentario(bar_id: int, datos: dict):
     return {"mensaje": "Comentario guardado"}
 
 
-
 # Debe retornar todos los eventos del bar desde la colección 'eventos'
 @app.get("/bares/{bar_id}/eventos")
-def get_eventos(bar_id:int):
-    eventos= list(db["eventos"].find({"bar_id": bar_id},{"_id":0}))
+def get_eventos(bar_id: int):
+    eventos = list(db["eventos"].find({"bar_id": bar_id}, {"_id": 0}))
     return eventos
+
+
 # Debe insertar el evento en la colección 'eventos'
 # Recuerde agregar bar_id y fecha_creacion al documento antes de insertar
 @app.post("/bares/{bar_id}/eventos")
-def post_eventos(bar_id:int,datos:dict):
-    datos["bar_id"]=bar_id
-    datos["fecha_creacion"]= datetime.now().isoformat()
+def post_eventos(bar_id: int, datos: dict):
+    datos["bar_id"] = bar_id
+    datos["fecha_creacion"] = datetime.now().isoformat()
     db["eventos"].insert_one(datos)
     return {"mensaje": "Evento Guardado"}
