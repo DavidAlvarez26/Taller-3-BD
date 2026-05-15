@@ -76,10 +76,11 @@ Ejemplo de evento tipo concierto:
 * Los datos propios de cada evento se modelaron como campos **embebidos** dentro del documento de evento. Por ejemplo, `nombre`, `artista`, `cover`, `cupos`, `descuento`, `hora_inicio` o `hora_fin` se almacenan directamente dentro del documento en la colección `eventos`.
 
 ## API en python
-![Post comentarios](imgs\post%20comentarios.png)
+<img width="1102" height="729" alt="get eventos" src="https://github.com/user-attachments/assets/104c0a26-4c5a-4cdd-b0fb-1a845c58e9af" />
 
-![Get comentarios](imgs\get%20comentarios.png)
+<img width="1097" height="940" alt="post eventos" src="https://github.com/user-attachments/assets/7bcd55ca-63ee-4f97-8083-addc428c2be8" />
 
-![Post eventos](imgs\post%20eventos.png)
+<img width="1121" height="795" alt="get comentarios" src="https://github.com/user-attachments/assets/6fd484e6-eac2-48ff-b822-b0e3c2357324" />
 
-![Get eventos](imgs\get%20eventos.png)
+<img width="1096" height="925" alt="post comentarios" src="https://github.com/user-attachments/assets/154d64fa-c912-4660-916c-fbeb521879cc" />
+
