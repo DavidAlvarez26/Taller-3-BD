@@ -87,3 +87,11 @@ Ejemplo de evento tipo concierto:
 ## Render
 https://taller-3-bd-x06p.onrender.com
 ## Implementacion Comentarios en APEX
+<img width="952" height="951" alt="Captura de pantalla 2026-05-14 203003" src="https://github.com/user-attachments/assets/b7a617f1-2bea-4731-b63f-281cdbf3c7bf" />
+<img width="948" height="951" alt="Captura de pantalla 2026-05-14 203012" src="https://github.com/user-attachments/assets/3548d59e-089d-46f2-985d-61dca3a81714" />
+<img width="954" height="947" alt="Captura de pantalla 2026-05-14 203054" src="https://github.com/user-attachments/assets/0a97bdc1-19e5-4900-aa0e-3913051da300" />
+<img width="1122" height="743" alt="Captura de pantalla 2026-05-14 203111" src="https://github.com/user-attachments/assets/522d474d-fe40-473c-a44d-2c53b3015a52" />
+
+
+
+
